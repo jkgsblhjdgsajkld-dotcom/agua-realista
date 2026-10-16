@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "realwater",
+  "version": "${version}",
+  "name": "Balde de Água Realista",
+  "description": "Um balde que invoca água realista: não vira fonte infinita, escorre naturalmente e tem visual translúcido. Compatível com Sodium.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.exemplo.realwater.RealWaterMod"],
+    "client": ["com.exemplo.realwater.client.RealWaterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": { "sodium": "*" }
+}

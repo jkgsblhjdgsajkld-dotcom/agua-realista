@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:water_bucket", "minecraft:diamond"],
+  "result": { "id": "realwater:realistic_water_bucket", "count": 1 }
+}
